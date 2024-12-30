@@ -1,0 +1,2 @@
+id;strategy_class;tickers;timeframe;broker_name;stocks;status
+1;QQQ;crypto;5M;alpaca;False;inactive

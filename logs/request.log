@@ -1,0 +1,696 @@
+2024-07-23 17:25:24,795 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-23 17:36:34,040 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-23 17:38:04,214 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-23 17:38:15,056 - Thread-3 (run_forever) - requests_f - INFO - Subscription thread has been launched for Alpaca
+2024-07-23 17:38:16,340 - Thread-3 (run_forever) - requests_f - INFO - Auth Response: [{'T': 'success', 'msg': 'connected'}]
+2024-07-23 17:38:16,472 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'success', 'msg': 'authenticated'}
+2024-07-23 17:38:16,472 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'subscription', 'trades': [], 'quotes': [], 'orderbooks': [], 'bars': ['BTC/USD', 'ETH/USD'], 'updatedBars': [], 'dailyBars': []}
+2024-07-23 23:41:43,674 - Thread-3 (run_forever) - requests_f - INFO - Connection closed with error: no close frame received or sent
+2024-07-23 23:41:43,685 - Thread-3 (run_forever) - requests_f - INFO - Attempting to reconnect to Alpaca in 5 seconds...
+2024-07-23 23:41:50,434 - Thread-3 (run_forever) - requests_f - INFO - Auth Response: [{'T': 'success', 'msg': 'connected'}]
+2024-07-23 23:41:50,605 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'success', 'msg': 'authenticated'}
+2024-07-23 23:41:50,606 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'subscription', 'trades': [], 'quotes': [], 'orderbooks': [], 'bars': ['BTC/USD', 'ETH/USD'], 'updatedBars': [], 'dailyBars': []}
+2024-07-23 23:42:03,419 - Thread-2 (transform_data) - requests_f - INFO - Error checking if market is open: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-07-23 23:42:07,050 - Thread-4 - requests_f - INFO - Error checking if market is open: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2024-07-24 00:10:02,532 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 00:10:02,551 - MainThread - requests_f - INFO - Error fetching bars: 1 validation error for CryptoBarsRequest
+timeframe
+  Input should be an instance of TimeFrame [type=is_instance_of, input_value='Min', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.7/v/is_instance_of
+2024-07-24 00:12:17,566 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 00:12:18,078 - MainThread - requests_f - INFO - Error fetching bars: {"message":"Unexpected query parameter(s): currency"}
+
+2024-07-24 00:13:06,854 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 00:13:07,519 - MainThread - requests_f - INFO - Error fetching bars: 'BarSet' object has no attribute 'items'
+2024-07-24 00:13:33,464 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 00:13:34,375 - MainThread - requests_f - INFO - Error fetching bars: 'BarSet' object has no attribute 'items'
+2024-07-24 00:14:44,940 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 00:14:45,272 - MainThread - requests_f - INFO - Error fetching bars: 'BarSet' object has no attribute 'items'
+2024-07-24 00:16:22,703 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 00:16:23,088 - MainThread - requests_f - INFO - Error fetching bars: 'BarSet' object has no attribute 'items'
+2024-07-24 00:17:32,483 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 00:17:32,780 - MainThread - requests_f - INFO - Error fetching bars: 'BarSet' object has no attribute 'items'
+2024-07-24 00:17:39,123 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 00:17:39,424 - MainThread - requests_f - INFO - Error fetching bars: 'BarSet' object has no attribute 'items'
+2024-07-24 00:18:09,589 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 00:18:09,891 - MainThread - requests_f - INFO - Error fetching bars: 'BarSet' object has no attribute 'items'
+2024-07-24 00:18:19,367 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 00:18:19,741 - MainThread - requests_f - INFO - Error fetching bars: 'BarSet' object has no attribute 'items'
+2024-07-24 00:18:33,468 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 00:18:33,860 - MainThread - requests_f - INFO - Error fetching bars: 'BarSet' object has no attribute 'items'
+2024-07-24 01:41:13,279 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 01:49:34,681 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 01:56:16,780 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 01:56:50,836 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 01:56:50,870 - MainThread - requests_f - INFO - Error fetching bars: 1 validation error for CryptoBarsRequest
+timeframe
+  Input should be an instance of TimeFrame [type=is_instance_of, input_value=<TimeFrameUnit.Minute: 'Min'>, input_type=TimeFrameUnit]
+    For further information visit https://errors.pydantic.dev/2.7/v/is_instance_of
+2024-07-24 01:58:18,177 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 02:03:54,455 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 02:04:06,682 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 02:04:06,861 - MainThread - requests_f - INFO - Error fetching bars: unhashable type: 'list'
+2024-07-24 02:04:34,706 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 02:04:34,887 - MainThread - requests_f - INFO - Error fetching bars: unhashable type: 'list'
+2024-07-24 02:04:56,219 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 02:06:22,059 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 02:09:55,730 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 02:43:56,303 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 02:43:56,310 - MainThread - requests_f - INFO - Error fetching bars: 1
+2024-07-24 02:46:39,440 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 02:47:45,508 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 02:48:14,546 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 02:49:40,135 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 02:50:01,564 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 02:50:28,166 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 02:50:28,495 - MainThread - requests_f - INFO - Error fetching bars: 'data'
+2024-07-24 02:51:27,364 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 02:51:28,259 - MainThread - requests_f - INFO - Error fetching bars: 404 Client Error: Not Found for url: https://contract.mexc.com/api/v1/contract/kline/BTC/USD?interval=1min&start_time=1721774907&end_time=1721782287
+2024-07-24 02:52:04,668 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 02:52:05,072 - MainThread - requests_f - INFO - Error fetching bars: 'data'
+2024-07-24 02:52:35,625 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:01:13,572 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:04:13,366 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:06:14,107 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:15:55,215 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:16:18,665 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:18:46,405 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:18:46,411 - MainThread - requests_f - INFO - Error fetching bars: 'H'
+2024-07-24 03:19:04,736 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:33:21,074 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:33:22,033 - MainThread - requests_f - INFO - Error fetching bars: 'data'
+2024-07-24 03:34:32,694 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:34:33,034 - MainThread - requests_f - INFO - Error fetching bars: 404 Client Error: Not Found for url: https://contract.mexc.com/api/v1/contract/kline/BTC/USD?interval=5min&start_time=1721777372&end_time=1721784872
+2024-07-24 03:37:18,318 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:37:19,091 - MainThread - requests_f - INFO - Error fetching bars: 'data'
+2024-07-24 03:38:49,428 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:38:50,195 - MainThread - requests_f - INFO - Error fetching bars: 'data'
+2024-07-24 03:39:35,707 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:39:36,463 - MainThread - requests_f - INFO - Error fetching bars: 'data'
+2024-07-24 03:43:50,738 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:43:52,737 - MainThread - requests_f - INFO - Error fetching bars: 'data'
+2024-07-24 03:44:16,901 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:44:17,633 - MainThread - requests_f - INFO - Error fetching bars: 'data'
+2024-07-24 03:45:48,299 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:45:49,162 - MainThread - requests_f - INFO - Error fetching bars: 'data'
+2024-07-24 03:47:19,592 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:47:47,834 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:48:57,517 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:49:19,206 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:49:40,271 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:51:10,395 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:52:59,256 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:53:26,916 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:54:48,554 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:56:47,858 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:56:48,646 - MainThread - requests_f - INFO - Error fetching bars: 'data'
+2024-07-24 03:57:24,780 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:57:25,570 - MainThread - requests_f - INFO - Error fetching bars: 'data'
+2024-07-24 03:58:16,405 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:58:46,714 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 03:59:38,748 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:00:43,354 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:02:20,272 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:02:20,623 - MainThread - requests_f - INFO - Error fetching bars: 'data'
+2024-07-24 04:02:37,881 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:02:38,192 - MainThread - requests_f - INFO - Error fetching bars: 'data'
+2024-07-24 04:03:16,919 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:03:17,696 - MainThread - requests_f - INFO - Error fetching bars: 'data'
+2024-07-24 04:04:18,100 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:05:10,753 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:06:16,308 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:06:41,732 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:07:23,529 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:07:53,590 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:07:55,218 - MainThread - requests_f - INFO - Error fetching bars: 'data'
+2024-07-24 04:08:51,946 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:10:24,167 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:10:24,171 - MainThread - requests_f - INFO - Error fetching bars: 'str' object has no attribute 'timestamp'
+2024-07-24 04:11:50,679 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:12:19,272 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:12:30,387 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:12:30,696 - MainThread - requests_f - INFO - Error fetching bars: 'data'
+2024-07-24 04:12:58,012 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:12:58,840 - MainThread - requests_f - INFO - Error fetching bars: 'data'
+2024-07-24 04:13:16,571 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:14:17,681 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:14:55,025 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:14:55,397 - MainThread - requests_f - INFO - Error fetching bars: 'BarSet' object has no attribute 'items'
+2024-07-24 04:15:43,195 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:15:43,516 - MainThread - requests_f - INFO - Error fetching bars: 'BarSet' object has no attribute 'items'
+2024-07-24 04:16:22,326 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:16:22,676 - MainThread - requests_f - INFO - Error fetching bars: 'BarSet' object has no attribute 'items'
+2024-07-24 04:17:26,813 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:18:52,713 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:19:02,715 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:19:03,016 - MainThread - requests_f - INFO - Error fetching bars: {"message":"invalid symbol: B does not match ^[A-Z]+/[A-Z]+$"}
+
+2024-07-24 04:19:22,683 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:19:44,323 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:24:16,993 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:24:17,158 - MainThread - requests_f - INFO - Error fetching bars: 'int' object has no attribute 'second'
+2024-07-24 04:27:18,636 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:28:29,060 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:30:41,668 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:31:18,273 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:31:55,620 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:34:18,984 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:34:32,289 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:35:25,891 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:36:40,825 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:38:01,721 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:38:29,483 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:39:04,785 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:54:43,764 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:55:00,344 - Thread-3 (run_forever) - requests_f - INFO - Subscription thread has been launched for Alpaca
+2024-07-24 04:55:01,621 - Thread-3 (run_forever) - requests_f - INFO - Auth Response: [{'T': 'success', 'msg': 'connected'}]
+2024-07-24 04:55:01,762 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'success', 'msg': 'authenticated'}
+2024-07-24 04:55:01,763 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'error', 'code': 400, 'msg': 'invalid syntax'}
+2024-07-24 04:55:27,228 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:55:32,037 - Thread-3 (run_forever) - requests_f - INFO - Subscription thread has been launched for MEXC
+2024-07-24 04:56:42,806 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721789802653}
+2024-07-24 04:56:42,809 - Thread-3 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 04:57:35,996 - Thread-6 (run_forever) - requests_f - INFO - Subscription thread has been launched for Kraken
+2024-07-24 04:57:36,288 - Thread-6 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'subscribe', 'params': {'channel': 'ohlc', 'snapshot': False, 'symbol': []}}
+2024-07-24 04:57:36,288 - Thread-6 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'status', 'data': [{'api_version': 'v2', 'connection_id': 9141672185390036046, 'system': 'online', 'version': '2.0.7'}], 'type': 'update'}
+2024-07-24 04:58:01,993 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 04:58:06,506 - Thread-3 (run_forever) - requests_f - INFO - Subscription thread has been launched for MEXC
+2024-07-24 04:59:12,408 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721789952241}
+2024-07-24 04:59:12,409 - Thread-3 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 05:00:22,551 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721790022197}
+2024-07-24 05:00:22,552 - Thread-3 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 05:00:40,427 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 05:00:45,746 - Thread-3 (run_forever) - requests_f - INFO - Subscription thread has been launched for MEXC
+2024-07-24 05:01:52,428 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 05:02:09,839 - Thread-2 (run_forever) - requests_f - INFO - Subscription thread has been launched for MEXC
+2024-07-24 05:03:20,414 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721790200243}
+2024-07-24 05:03:20,417 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 05:04:22,296 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721790262244}
+2024-07-24 05:04:22,297 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 05:05:32,933 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721790332879}
+2024-07-24 05:05:32,934 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:00:29,152 - Thread-2 (run_forever) - requests_f - INFO - Connection closed with error: no close frame received or sent
+2024-07-24 12:00:29,154 - Thread-2 (run_forever) - requests_f - INFO - Attempting to reconnect in 5 seconds...
+2024-07-24 12:01:42,660 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721815303133}
+2024-07-24 12:01:42,661 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:02:52,499 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721815373133}
+2024-07-24 12:02:52,500 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:04:02,018 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721815442654}
+2024-07-24 12:04:02,020 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:05:09,598 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721815510243}
+2024-07-24 12:05:09,600 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:06:11,965 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721815572655}
+2024-07-24 12:06:11,968 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:07:21,300 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721815641772}
+2024-07-24 12:07:21,303 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:08:32,236 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721815712654}
+2024-07-24 12:08:32,240 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:09:41,657 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721815782241}
+2024-07-24 12:09:41,658 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:10:49,851 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721815850244}
+2024-07-24 12:10:49,853 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:11:51,316 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721815911773}
+2024-07-24 12:11:51,319 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:12:59,789 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721815980244}
+2024-07-24 12:12:59,790 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:14:02,453 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721816042880}
+2024-07-24 12:14:02,456 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:15:13,003 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721816113381}
+2024-07-24 12:15:13,006 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:16:21,927 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721816182655}
+2024-07-24 12:16:21,930 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:17:32,865 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721816253421}
+2024-07-24 12:17:32,868 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:18:41,990 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721816322457}
+2024-07-24 12:18:42,011 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:18:56,454 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 12:23:35,473 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 12:23:56,364 - Thread-3 (run_forever) - requests_f - INFO - Subscription thread has been launched for MEXC
+2024-07-24 12:23:56,846 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:23:56,847 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:23:57,152 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721816637835}
+2024-07-24 12:23:57,153 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721816637835}
+2024-07-24 12:24:00,365 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:25:00,406 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:25:01,829 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721816702579}
+2024-07-24 12:25:01,830 - Thread-3 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:25:02,648 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:25:02,648 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:25:02,888 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721816703640}
+2024-07-24 12:25:02,889 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721816703641}
+2024-07-24 12:26:00,915 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:26:11,699 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721816772243}
+2024-07-24 12:26:11,701 - Thread-3 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:26:12,617 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:26:12,617 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:26:12,924 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721816773613}
+2024-07-24 12:26:12,925 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721816773613}
+2024-07-24 12:27:00,942 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:27:21,735 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721816842196}
+2024-07-24 12:27:21,738 - Thread-3 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:27:22,655 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:27:22,656 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:27:22,962 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721816843653}
+2024-07-24 12:27:22,962 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721816843654}
+2024-07-24 12:28:00,970 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:28:31,159 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721816911771}
+2024-07-24 12:28:31,162 - Thread-3 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:28:32,078 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:28:32,080 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:28:32,384 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721816913083}
+2024-07-24 12:28:32,384 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721816913085}
+2024-07-24 12:29:00,009 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:29:41,200 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721816981771}
+2024-07-24 12:29:41,202 - Thread-3 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:29:42,120 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:29:42,120 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:29:42,422 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721816983132}
+2024-07-24 12:29:42,423 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721816983132}
+2024-07-24 12:30:00,042 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:40:17,508 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 12:40:27,620 - Thread-2 (run_forever) - requests_f - INFO - Subscription thread has been launched for MEXC
+2024-07-24 12:40:28,091 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:40:28,092 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:40:28,381 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721817628260}
+2024-07-24 12:40:28,381 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721817628260}
+2024-07-24 12:41:00,635 - Thread-3 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:41:32,601 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721817692242}
+2024-07-24 12:41:32,602 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:41:33,504 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:41:33,505 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:41:33,811 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721817693677}
+2024-07-24 12:41:33,811 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721817693677}
+2024-07-24 12:42:00,678 - Thread-3 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:42:14,581 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 12:42:27,504 - Thread-2 (run_forever) - requests_f - INFO - Subscription thread has been launched for MEXC
+2024-07-24 12:42:27,993 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:42:27,995 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:42:28,242 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721817748170}
+2024-07-24 12:42:28,243 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721817748173}
+2024-07-24 12:43:00,506 - Thread-3 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:43:32,690 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721817812578}
+2024-07-24 12:43:32,697 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:43:33,536 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:43:33,539 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:43:33,769 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721817813714}
+2024-07-24 12:43:33,771 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721817813717}
+2024-07-24 12:44:00,539 - Thread-3 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:44:43,341 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721817883134}
+2024-07-24 12:44:43,342 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:44:44,265 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:44:44,266 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:44:44,568 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721817884451}
+2024-07-24 12:44:44,569 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721817884451}
+2024-07-24 12:45:00,569 - Thread-3 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:45:52,458 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721817952239}
+2024-07-24 12:45:52,459 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:45:53,044 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:45:53,045 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:45:53,376 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721817953236}
+2024-07-24 12:45:53,376 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721817953236}
+2024-07-24 12:46:00,339 - Thread-3 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:47:00,368 - Thread-3 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:47:02,920 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721818022880}
+2024-07-24 12:47:02,923 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:47:03,889 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:47:03,890 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:47:04,139 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818024089}
+2024-07-24 12:47:04,140 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818024089}
+2024-07-24 12:48:00,399 - Thread-3 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:48:13,458 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721818093422}
+2024-07-24 12:48:13,459 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:48:14,326 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:48:14,327 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:48:14,556 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818094522}
+2024-07-24 12:48:14,558 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818094524}
+2024-07-24 12:49:00,483 - Thread-3 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:49:22,331 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721818162239}
+2024-07-24 12:49:22,334 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:49:23,439 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:49:23,440 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:49:23,687 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818163593}
+2024-07-24 12:49:23,687 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818163593}
+2024-07-24 12:50:00,532 - Thread-3 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:50:32,974 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721818232881}
+2024-07-24 12:50:32,977 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:50:33,370 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:50:33,371 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:50:33,603 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818233512}
+2024-07-24 12:50:33,654 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818233567}
+2024-07-24 12:51:00,985 - Thread-3 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:51:29,402 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 12:51:40,333 - Thread-3 (run_forever) - requests_f - INFO - Subscription thread has been launched for MEXC
+2024-07-24 12:51:40,732 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:51:40,733 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:51:40,966 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818300877}
+2024-07-24 12:51:40,967 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818300878}
+2024-07-24 12:52:00,336 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:52:43,532 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721818363132}
+2024-07-24 12:52:43,534 - Thread-3 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:52:44,350 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:52:44,351 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:52:44,770 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818364494}
+2024-07-24 12:52:44,770 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818364495}
+2024-07-24 12:53:00,375 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:53:52,956 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721818432653}
+2024-07-24 12:53:52,957 - Thread-3 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:53:54,192 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:53:54,196 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:53:54,492 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818434340}
+2024-07-24 12:53:54,492 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818434344}
+2024-07-24 12:54:00,405 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:54:26,998 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 12:54:45,240 - Thread-3 (run_forever) - requests_f - INFO - Subscription thread has been launched for MEXC
+2024-07-24 12:54:45,659 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:54:45,660 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:54:46,007 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818485811}
+2024-07-24 12:54:46,007 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818485811}
+2024-07-24 12:55:00,245 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:55:53,140 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721818552878}
+2024-07-24 12:55:53,143 - Thread-3 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:55:53,990 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:55:53,991 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:55:54,226 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818554143}
+2024-07-24 12:55:54,226 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818554143}
+2024-07-24 12:56:00,093 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:57:00,138 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:57:02,535 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721818622456}
+2024-07-24 12:57:02,537 - Thread-3 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:57:03,346 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:57:03,347 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:57:03,735 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818623498}
+2024-07-24 12:57:03,736 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818623499}
+2024-07-24 12:58:00,187 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 12:58:13,146 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721818692878}
+2024-07-24 12:58:13,148 - Thread-3 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 12:58:14,123 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:58:14,124 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:58:14,376 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818694284}
+2024-07-24 12:58:14,376 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818694284}
+2024-07-24 12:58:58,551 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 12:59:09,481 - Thread-2 (run_forever) - requests_f - INFO - Subscription thread has been launched for MEXC
+2024-07-24 12:59:10,290 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 12:59:10,291 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 12:59:10,518 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818750444}
+2024-07-24 12:59:10,519 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818750445}
+2024-07-24 13:00:00,488 - Thread-3 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 13:00:12,359 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721818812196}
+2024-07-24 13:00:12,361 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 13:00:13,297 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 13:00:13,298 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 13:00:13,568 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818813457}
+2024-07-24 13:00:13,568 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.sub.kline', 'data': 'success', 'ts': 1721818813457}
+2024-07-24 13:01:00,914 - Thread-3 (transform_data) - requests_f - INFO - Market status request..
+2024-07-24 13:01:22,376 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'rs.error', 'data': 'more than 60 seconds no response, close the channel', 'ts': 1721818882241}
+2024-07-24 13:01:22,377 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred: received 1005 (no status received [internal]); then sent 1005 (no status received [internal])
+2024-07-24 13:01:23,201 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'BTC_USD', 'interval': 'Min1'}}
+2024-07-24 13:01:23,201 - Thread-2 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'sub.kline', 'param': {'symbol': 'ETH_USD', 'interval': 'Min1'}}
+2024-07-24 13:01:27,339 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 13:09:34,530 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 13:09:34,870 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 13:09:51,476 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 13:09:51,757 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 13:10:30,669 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 13:10:59,115 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 13:10:59,472 - MainThread - requests_f - INFO - Error fetching actual bar for BTC/USDT: 'data'
+2024-07-24 13:10:59,761 - MainThread - requests_f - INFO - Error fetching actual bar for ETH/USDT: 'data'
+2024-07-24 13:10:59,761 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 13:13:18,792 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 13:13:19,689 - MainThread - requests_f - INFO - Error fetching actual bar for BTC/USDT: 'data'
+2024-07-24 13:13:19,980 - MainThread - requests_f - INFO - Error fetching actual bar for ETH/USDT: 'data'
+2024-07-24 13:13:19,981 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 13:17:33,165 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 13:17:33,976 - MainThread - requests_f - INFO - Error fetching actual bar for BTC/USDT: 'data'
+2024-07-24 13:17:34,273 - MainThread - requests_f - INFO - Error fetching actual bar for ETH/USDT: 'data'
+2024-07-24 13:17:34,273 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 13:18:11,502 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 13:18:12,278 - MainThread - requests_f - INFO - Error fetching actual bar for BTC/USDT: 'data'
+2024-07-24 13:18:12,574 - MainThread - requests_f - INFO - Error fetching actual bar for ETH/USDT: 'data'
+2024-07-24 13:18:12,574 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 13:18:29,249 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 13:18:30,570 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 13:22:51,202 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 13:22:51,999 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 13:23:56,935 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 13:23:57,643 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 13:26:27,774 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 13:26:29,167 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 13:27:22,891 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 13:27:23,910 - MainThread - requests_f - INFO - Error fetching actual bar for BTC/USDT: -1
+2024-07-24 13:27:24,213 - MainThread - requests_f - INFO - Error fetching actual bar for ETH/USDT: -1
+2024-07-24 13:27:24,213 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 13:42:51,285 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 13:42:51,649 - MainThread - requests_f - INFO - Error fetching actual bar for BTC/USDT: 'BTC/USDT'
+2024-07-24 13:42:52,384 - MainThread - requests_f - INFO - Error fetching actual bar for ETH/USDT: 'ETH/USDT'
+2024-07-24 13:42:52,384 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 13:47:10,061 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 13:47:10,871 - MainThread - requests_f - INFO - Error fetching actual bar for BTC/USDT: 'BTC/USDT'
+2024-07-24 13:47:11,609 - MainThread - requests_f - INFO - Error fetching actual bar for ETH/USDT: 'ETH/USDT'
+2024-07-24 13:47:11,609 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 13:48:00,389 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 13:48:01,174 - MainThread - requests_f - INFO - Error fetching actual bar for BTC/USDT: 'BTC/USDT'
+2024-07-24 13:48:01,487 - MainThread - requests_f - INFO - Error fetching actual bar for ETH/USDT: 'ETH/USDT'
+2024-07-24 13:48:01,488 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 13:50:35,810 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 13:50:36,724 - MainThread - requests_f - INFO - Error fetching actual bar for BTC/USDT: 'BTC/USDT'
+2024-07-24 13:50:37,017 - MainThread - requests_f - INFO - Error fetching actual bar for ETH/USDT: 'ETH/USDT'
+2024-07-24 13:50:37,018 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 13:56:56,296 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 13:56:57,086 - MainThread - requests_f - INFO - Error fetching actual bar for BTC/USDT: 'BTC/USDT'
+2024-07-24 13:56:57,967 - MainThread - requests_f - INFO - Error fetching actual bar for ETH/USDT: 'ETH/USDT'
+2024-07-24 13:56:57,967 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 23:22:06,335 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 23:22:07,139 - MainThread - requests_f - INFO - Error fetching actual bar for BTC/USDT: 'BTC/USDT'
+2024-07-24 23:22:07,421 - MainThread - requests_f - INFO - Error fetching actual bar for ETH/USDT: 'ETH/USDT'
+2024-07-24 23:22:07,422 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 23:22:26,245 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 23:22:27,084 - MainThread - requests_f - INFO - Error fetching actual bar for BTC/USDT: 'BTC/USDT'
+2024-07-24 23:22:27,372 - MainThread - requests_f - INFO - Error fetching actual bar for ETH/USDT: 'ETH/USDT'
+2024-07-24 23:22:27,372 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 23:26:31,653 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 23:26:32,626 - MainThread - requests_f - INFO - Error fetching actual bar for BTC/USDT: 'BTC/USDT'
+2024-07-24 23:26:32,906 - MainThread - requests_f - INFO - Error fetching actual bar for ETH/USDT: 'ETH/USDT'
+2024-07-24 23:26:32,906 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 23:26:47,470 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 23:26:48,192 - MainThread - requests_f - INFO - Error fetching actual bar for BTC/USDT: 'BTC/USDT'
+2024-07-24 23:26:48,475 - MainThread - requests_f - INFO - Error fetching actual bar for ETH/USDT: 'ETH/USDT'
+2024-07-24 23:26:48,475 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 23:27:12,396 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 23:27:13,172 - MainThread - requests_f - INFO - Error fetching actual bar for BTC/USDT: 0
+2024-07-24 23:27:14,096 - MainThread - requests_f - INFO - Error fetching actual bar for ETH/USDT: 0
+2024-07-24 23:27:14,096 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 23:29:38,140 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 23:29:39,091 - MainThread - requests_f - INFO - Error fetching actual bar for BTC/USDT: 'BTC/USDT'
+2024-07-24 23:29:39,380 - MainThread - requests_f - INFO - Error fetching actual bar for ETH/USDT: 'ETH/USDT'
+2024-07-24 23:29:39,383 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 23:30:24,355 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 23:30:25,153 - MainThread - requests_f - INFO - Error fetching actual bar for BTC/USDT: 'BTC/USDT'
+2024-07-24 23:30:25,867 - MainThread - requests_f - INFO - Error fetching actual bar for ETH/USDT: 'ETH/USDT'
+2024-07-24 23:30:25,867 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 23:30:48,358 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 23:30:49,091 - MainThread - requests_f - INFO - Error fetching actual bar for BTC/USDT: 'BTC/USDT'
+2024-07-24 23:30:49,372 - MainThread - requests_f - INFO - Error fetching actual bar for ETH/USDT: 'ETH/USDT'
+2024-07-24 23:30:49,372 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 23:31:50,665 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 23:31:51,708 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 23:32:31,469 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 23:32:33,161 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 23:36:41,239 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 23:36:41,636 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 23:37:03,825 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 23:37:04,183 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 23:39:10,684 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 23:39:11,043 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 23:39:31,160 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 23:39:31,461 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 23:39:47,471 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 23:40:03,897 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 23:40:05,161 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 23:42:00,450 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 23:42:00,810 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 23:43:31,314 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 23:43:31,678 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 23:43:33,001 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 23:47:25,118 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 23:47:25,504 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 23:47:26,906 - MainThread - requests_f - INFO - Data from broker received
+2024-07-24 23:50:34,190 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 23:50:34,200 - MainThread - requests_f - INFO - Asking account info..
+2024-07-24 23:50:36,346 - MainThread - requests_f - INFO - Error fetching account info: 401 Client Error: Unauthorized for url: https://contract.mexc.com/api/v1/private/account/assets
+2024-07-24 23:50:54,495 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 23:50:54,862 - MainThread - requests_f - INFO - Asking account info..
+2024-07-24 23:50:55,681 - MainThread - requests_f - INFO - Error fetching account info: 401 Client Error: Unauthorized for url: https://contract.mexc.com/api/v1/private/account/assets
+2024-07-24 23:53:41,736 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-24 23:53:42,033 - MainThread - requests_f - INFO - Asking account info..
+2024-07-24 23:53:42,869 - MainThread - requests_f - INFO - Error fetching account info: 401 Client Error: Unauthorized for url: https://contract.mexc.com/api/v1/private/account/assets
+2024-07-25 01:06:00,971 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-25 01:06:01,353 - MainThread - requests_f - INFO - Asking account info..
+2024-07-25 01:06:02,293 - MainThread - requests_f - INFO - Error fetching account info: 401 Client Error: Unauthorized for url: https://contract.mexc.com/api/v1/private/account/assets
+2024-07-25 01:07:37,166 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-25 01:08:20,564 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-25 01:12:43,220 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-25 01:13:02,107 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-25 01:14:00,137 - Thread-2 (run_forever) - requests_f - INFO - Subscription thread has been launched for Alpaca
+2024-07-25 01:14:00,610 - Thread-2 (run_forever) - requests_f - INFO - Auth Response: [{'T': 'success', 'msg': 'connected'}]
+2024-07-25 01:14:00,702 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'success', 'msg': 'authenticated'}
+2024-07-25 01:14:00,702 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'subscription', 'trades': [], 'quotes': [], 'orderbooks': [], 'bars': ['BTC/USD', 'ETH/USD'], 'updatedBars': [], 'dailyBars': []}
+2024-07-25 01:18:12,000 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-25 01:20:00,367 - Thread-3 (run_forever) - requests_f - INFO - Subscription thread has been launched for Alpaca
+2024-07-25 01:20:00,765 - Thread-3 (run_forever) - requests_f - INFO - Auth Response: [{'T': 'success', 'msg': 'connected'}]
+2024-07-25 01:20:01,042 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'success', 'msg': 'authenticated'}
+2024-07-25 01:20:01,042 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'subscription', 'trades': [], 'quotes': [], 'orderbooks': [], 'bars': ['BTC/USD', 'ETH/USD'], 'updatedBars': [], 'dailyBars': []}
+2024-07-25 01:32:28,851 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-25 01:33:00,699 - Thread-2 (run_forever) - requests_f - INFO - Subscription thread has been launched for Alpaca
+2024-07-25 01:33:01,276 - Thread-2 (run_forever) - requests_f - INFO - Auth Response: [{'T': 'success', 'msg': 'connected'}]
+2024-07-25 01:33:01,418 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'success', 'msg': 'authenticated'}
+2024-07-25 01:33:01,418 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'subscription', 'trades': [], 'quotes': [], 'orderbooks': [], 'bars': ['BTC/USD', 'ETH/USD'], 'updatedBars': [], 'dailyBars': []}
+2024-07-25 01:41:12,374 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-25 01:42:00,967 - Thread-3 (run_forever) - requests_f - INFO - Subscription thread has been launched for Alpaca
+2024-07-25 01:42:01,375 - Thread-3 (run_forever) - requests_f - INFO - Auth Response: [{'T': 'success', 'msg': 'connected'}]
+2024-07-25 01:42:01,464 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'success', 'msg': 'authenticated'}
+2024-07-25 01:42:01,465 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'subscription', 'trades': [], 'quotes': [], 'orderbooks': [], 'bars': ['BTC/USD', 'ETH/USD'], 'updatedBars': [], 'dailyBars': []}
+2024-07-25 02:04:56,075 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-25 02:06:00,351 - Thread-3 (run_forever) - requests_f - INFO - Subscription thread has been launched for Alpaca
+2024-07-25 02:06:00,802 - Thread-3 (run_forever) - requests_f - INFO - Auth Response: [{'T': 'success', 'msg': 'connected'}]
+2024-07-25 02:06:00,896 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'success', 'msg': 'authenticated'}
+2024-07-25 02:06:00,897 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'subscription', 'trades': [], 'quotes': [], 'orderbooks': [], 'bars': ['BTC/USD', 'ETH/USD'], 'updatedBars': [], 'dailyBars': []}
+2024-07-25 02:07:05,192 - Thread-4 - requests_f - INFO - Error placing order: {"code":42210000,"message":"invalid crypto time_in_force"}
+2024-07-25 02:07:05,288 - Thread-4 - requests_f - INFO - Error placing order: {"code":42210000,"message":"invalid crypto time_in_force"}
+2024-07-25 02:08:04,510 - Thread-4 - requests_f - INFO - Error placing order: {"code":42210000,"message":"invalid crypto time_in_force"}
+2024-07-25 02:08:04,615 - Thread-4 - requests_f - INFO - Error placing order: {"code":42210000,"message":"invalid crypto time_in_force"}
+2024-07-25 02:09:04,769 - Thread-4 - requests_f - INFO - Error placing order: {"code":42210000,"message":"invalid crypto time_in_force"}
+2024-07-25 02:09:04,868 - Thread-4 - requests_f - INFO - Error placing order: {"code":42210000,"message":"invalid crypto time_in_force"}
+2024-07-25 02:09:41,696 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-25 02:10:00,148 - Thread-3 (run_forever) - requests_f - INFO - Subscription thread has been launched for Alpaca
+2024-07-25 02:10:00,728 - Thread-3 (run_forever) - requests_f - INFO - Auth Response: [{'T': 'success', 'msg': 'connected'}]
+2024-07-25 02:10:00,821 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'success', 'msg': 'authenticated'}
+2024-07-25 02:10:00,824 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'subscription', 'trades': [], 'quotes': [], 'orderbooks': [], 'bars': ['BTC/USD', 'ETH/USD'], 'updatedBars': [], 'dailyBars': []}
+2024-07-25 02:12:04,220 - Thread-4 - requests_f - INFO - Error placing order: {"available":"29842.33","balance":"29842.33","code":40310000,"message":"insufficient balance for USD (requested: 66697.39, available: 29842.33)","symbol":"USD"}
+2024-07-25 02:13:04,431 - Thread-4 - requests_f - INFO - Error placing order: {"available":"26508.14","balance":"26508.14","code":40310000,"message":"insufficient balance for USD (requested: 66653.86, available: 26508.14)","symbol":"USD"}
+2024-07-25 02:14:04,649 - Thread-4 - requests_f - INFO - Error placing order: {"available":"23174.04","balance":"23174.04","code":40310000,"message":"insufficient balance for USD (requested: 66709.02, available: 23174.04)","symbol":"USD"}
+2024-07-25 02:15:04,863 - Thread-4 - requests_f - INFO - Error placing order: {"available":"19838.93","balance":"19838.93","code":40310000,"message":"insufficient balance for USD (requested: 66787.7, available: 19838.93)","symbol":"USD"}
+2024-07-25 02:16:05,071 - Thread-4 - requests_f - INFO - Error placing order: {"available":"16500.17","balance":"16500.17","code":40310000,"message":"insufficient balance for USD (requested: 66731.05, available: 16500.17)","symbol":"USD"}
+2024-07-25 02:17:04,286 - Thread-4 - requests_f - INFO - Error placing order: {"available":"13161.81","balance":"13161.81","code":40310000,"message":"insufficient balance for USD (requested: 66731.97, available: 13161.81)","symbol":"USD"}
+2024-07-25 02:18:04,501 - Thread-4 - requests_f - INFO - Error placing order: {"available":"9825.61","balance":"9825.61","code":40310000,"message":"insufficient balance for USD (requested: 66820.23, available: 9825.61)","symbol":"USD"}
+2024-07-25 02:19:04,720 - Thread-4 - requests_f - INFO - Error placing order: {"available":"6483.06","balance":"6483.06","code":40310000,"message":"insufficient balance for USD (requested: 66820.23, available: 6483.06)","symbol":"USD"}
+2024-07-25 02:20:04,932 - Thread-4 - requests_f - INFO - Error placing order: {"available":"3145.33","balance":"3145.33","code":40310000,"message":"insufficient balance for USD (requested: 66820.23, available: 3145.33)","symbol":"USD"}
+2024-07-25 02:20:05,030 - Thread-4 - requests_f - INFO - Error placing order: {"available":"3145.33","balance":"3145.33","code":40310000,"message":"insufficient balance for USD (requested: 3406.49, available: 3145.33)","symbol":"USD"}
+2024-07-25 02:21:04,168 - Thread-4 - requests_f - INFO - Error placing order: {"available":"3145.33","balance":"3145.33","code":40310000,"message":"insufficient balance for USD (requested: 66866.52, available: 3145.33)","symbol":"USD"}
+2024-07-25 02:21:04,273 - Thread-4 - requests_f - INFO - Error placing order: {"available":"3145.33","balance":"3145.33","code":40310000,"message":"insufficient balance for USD (requested: 3408.44, available: 3145.33)","symbol":"USD"}
+2024-07-25 02:22:04,390 - Thread-4 - requests_f - INFO - Error placing order: {"available":"3145.33","balance":"3145.33","code":40310000,"message":"insufficient balance for USD (requested: 66870.33, available: 3145.33)","symbol":"USD"}
+2024-07-25 02:22:04,488 - Thread-4 - requests_f - INFO - Error placing order: {"available":"3145.33","balance":"3145.33","code":40310000,"message":"insufficient balance for USD (requested: 3408.44, available: 3145.33)","symbol":"USD"}
+2024-07-25 02:23:04,599 - Thread-4 - requests_f - INFO - Error placing order: {"available":"3145.33","balance":"3145.33","code":40310000,"message":"insufficient balance for USD (requested: 66904.03, available: 3145.33)","symbol":"USD"}
+2024-07-25 02:23:04,696 - Thread-4 - requests_f - INFO - Error placing order: {"available":"3145.33","balance":"3145.33","code":40310000,"message":"insufficient balance for USD (requested: 3408.44, available: 3145.33)","symbol":"USD"}
+2024-07-25 02:24:04,802 - Thread-4 - requests_f - INFO - Error placing order: {"available":"3145.33","balance":"3145.33","code":40310000,"message":"insufficient balance for USD (requested: 66904.03, available: 3145.33)","symbol":"USD"}
+2024-07-25 02:24:04,901 - Thread-4 - requests_f - INFO - Error placing order: {"available":"3145.33","balance":"3145.33","code":40310000,"message":"insufficient balance for USD (requested: 3408.44, available: 3145.33)","symbol":"USD"}
+2024-07-25 02:25:05,017 - Thread-4 - requests_f - INFO - Error placing order: {"available":"3145.33","balance":"3145.33","code":40310000,"message":"insufficient balance for USD (requested: 66921.88, available: 3145.33)","symbol":"USD"}
+2024-07-25 02:25:05,132 - Thread-4 - requests_f - INFO - Error placing order: {"available":"3145.33","balance":"3145.33","code":40310000,"message":"insufficient balance for USD (requested: 3408.44, available: 3145.33)","symbol":"USD"}
+2024-07-25 02:26:04,305 - Thread-4 - requests_f - INFO - Error placing order: {"available":"3145.33","balance":"3145.33","code":40310000,"message":"insufficient balance for USD (requested: 66893.74, available: 3145.33)","symbol":"USD"}
+2024-07-25 02:26:04,401 - Thread-4 - requests_f - INFO - Error placing order: {"available":"3145.33","balance":"3145.33","code":40310000,"message":"insufficient balance for USD (requested: 3406.04, available: 3145.33)","symbol":"USD"}
+2024-07-25 02:27:04,519 - Thread-4 - requests_f - INFO - Error placing order: {"available":"3145.33","balance":"3145.33","code":40310000,"message":"insufficient balance for USD (requested: 66893.74, available: 3145.33)","symbol":"USD"}
+2024-07-25 02:27:04,621 - Thread-4 - requests_f - INFO - Error placing order: {"available":"3145.33","balance":"3145.33","code":40310000,"message":"insufficient balance for USD (requested: 3406.04, available: 3145.33)","symbol":"USD"}
+2024-07-25 02:28:04,725 - Thread-4 - requests_f - INFO - Error placing order: {"available":"3145.33","balance":"3145.33","code":40310000,"message":"insufficient balance for USD (requested: 66893.74, available: 3145.33)","symbol":"USD"}
+2024-07-25 02:28:04,828 - Thread-4 - requests_f - INFO - Error placing order: {"available":"3145.33","balance":"3145.33","code":40310000,"message":"insufficient balance for USD (requested: 3408.32, available: 3145.33)","symbol":"USD"}
+2024-07-27 10:44:38,717 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-07-27 10:46:00,946 - Thread-3 (run_forever) - requests_f - INFO - Subscription thread has been launched for Kraken
+2024-07-27 10:46:03,622 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'subscribe', 'params': {'channel': 'ohlc', 'snapshot': False, 'symbol': ['BTC/USD', 'ETH/USD']}}
+2024-07-27 10:46:03,623 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'status', 'data': [{'api_version': 'v2', 'connection_id': 2294574035072579580, 'system': 'online', 'version': '2.0.7'}], 'type': 'update'}
+2024-07-27 10:46:03,712 - Thread-3 (run_forever) - requests_f - INFO - Key error processing message: 'channel'
+2024-07-27 10:46:03,713 - Thread-3 (run_forever) - requests_f - INFO - Key error processing message: 'channel'
+2024-07-27 10:47:00,952 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-27 10:48:00,969 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-27 10:49:00,982 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-27 10:49:20,634 - Thread-3 (run_forever) - requests_f - INFO - Connection closed with error: sent 1011 (internal error) keepalive ping timeout; no close frame received
+2024-07-27 10:49:20,638 - Thread-3 (run_forever) - requests_f - INFO - Attempting to reconnect in 5 seconds...
+2024-07-27 10:49:35,744 - Thread-3 (run_forever) - requests_f - INFO - An unexpected error occurred: 
+2024-07-27 10:49:45,747 - Thread-3 (run_forever) - requests_f - INFO - An unexpected error occurred: 
+2024-07-27 10:49:48,379 - Thread-3 (run_forever) - requests_f - INFO - Sent subscribe message: {'method': 'subscribe', 'params': {'channel': 'ohlc', 'snapshot': False, 'symbol': ['BTC/USD', 'ETH/USD']}}
+2024-07-27 10:49:48,379 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'channel': 'status', 'data': [{'api_version': 'v2', 'connection_id': 4025926065928009469, 'system': 'online', 'version': '2.0.7'}], 'type': 'update'}
+2024-07-27 10:49:54,155 - Thread-3 (run_forever) - requests_f - INFO - Key error processing message: 'channel'
+2024-07-27 10:49:54,156 - Thread-3 (run_forever) - requests_f - INFO - Key error processing message: 'channel'
+2024-07-27 10:50:01,004 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-27 10:51:00,027 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-27 10:52:00,047 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-27 10:53:00,097 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-27 10:54:00,122 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-27 10:55:00,140 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-07-27 10:56:00,153 - Thread-2 (transform_data) - requests_f - INFO - Market status request..
+2024-08-09 20:36:17,219 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-08-09 21:29:55,718 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-08-09 21:31:47,212 - MainThread - requests_f - INFO - Error fetching bars: CryptoHistoricalDataClient._data_get() missing 1 required positional argument: 'symbol_or_symbols'
+2024-08-09 21:32:00,250 - Thread-2 (run_forever) - requests_f - INFO - Subscription thread has been launched for Alpaca
+2024-08-09 21:32:01,873 - Thread-2 (run_forever) - requests_f - INFO - Auth Response: [{'T': 'success', 'msg': 'connected'}]
+2024-08-09 21:32:02,137 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'success', 'msg': 'authenticated'}
+2024-08-09 21:32:02,138 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'error', 'code': 400, 'msg': 'invalid syntax'}
+2024-08-09 21:41:55,915 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-08-09 21:42:18,324 - MainThread - requests_f - INFO - Error fetching bars: CryptoHistoricalDataClient._data_get() missing 1 required positional argument: 'symbol_or_symbols'
+2024-08-09 21:43:00,356 - Thread-3 (run_forever) - requests_f - INFO - Subscription thread has been launched for Alpaca
+2024-08-09 21:43:00,992 - Thread-3 (run_forever) - requests_f - INFO - Auth Response: [{'T': 'success', 'msg': 'connected'}]
+2024-08-09 21:43:01,212 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'success', 'msg': 'authenticated'}
+2024-08-09 21:43:01,212 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'error', 'code': 400, 'msg': 'invalid syntax'}
+2024-08-09 21:53:31,289 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-08-09 21:54:11,767 - MainThread - requests_f - INFO - Error fetching bars: CryptoHistoricalDataClient._data_get() missing 1 required positional argument: 'symbol_or_symbols'
+2024-08-09 21:55:00,797 - Thread-3 (run_forever) - requests_f - INFO - Subscription thread has been launched for Alpaca
+2024-08-09 21:55:01,474 - Thread-3 (run_forever) - requests_f - INFO - Auth Response: [{'T': 'success', 'msg': 'connected'}]
+2024-08-09 21:55:01,638 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'success', 'msg': 'authenticated'}
+2024-08-09 21:55:01,640 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'error', 'code': 400, 'msg': 'invalid syntax'}
+2024-08-09 22:12:31,064 - Thread-3 (run_forever) - requests_f - INFO - Connection closed with error: sent 1011 (internal error) keepalive ping timeout; no close frame received
+2024-08-09 22:12:31,065 - Thread-3 (run_forever) - requests_f - INFO - Attempting to reconnect to Alpaca in 5 seconds...
+2024-08-09 22:12:36,648 - Thread-3 (run_forever) - requests_f - INFO - Auth Response: [{'T': 'success', 'msg': 'connected'}]
+2024-08-09 22:12:36,813 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'error', 'code': 406, 'msg': 'connection limit exceeded'}
+2024-08-09 22:12:36,813 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'error', 'code': 400, 'msg': 'invalid syntax'}
+2024-08-09 22:12:46,650 - Thread-3 (run_forever) - requests_f - INFO - Connection closed with error: no close frame received or sent
+2024-08-09 22:12:46,652 - Thread-3 (run_forever) - requests_f - INFO - Attempting to reconnect to Alpaca in 5 seconds...
+2024-08-09 22:12:52,048 - Thread-3 (run_forever) - requests_f - INFO - Auth Response: [{'T': 'success', 'msg': 'connected'}]
+2024-08-09 22:12:52,154 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'error', 'code': 406, 'msg': 'connection limit exceeded'}
+2024-08-09 22:12:52,154 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'error', 'code': 400, 'msg': 'invalid syntax'}
+2024-08-09 22:13:02,096 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'error', 'code': 404, 'msg': 'auth timeout'}
+2024-08-09 22:13:02,097 - Thread-3 (run_forever) - requests_f - INFO - Connection closed with error: no close frame received or sent
+2024-08-09 22:13:02,098 - Thread-3 (run_forever) - requests_f - INFO - Attempting to reconnect to Alpaca in 5 seconds...
+2024-08-09 22:13:07,547 - Thread-3 (run_forever) - requests_f - INFO - Auth Response: [{'T': 'success', 'msg': 'connected'}]
+2024-08-09 22:13:07,644 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'error', 'code': 406, 'msg': 'connection limit exceeded'}
+2024-08-09 22:13:07,652 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'error', 'code': 400, 'msg': 'invalid syntax'}
+2024-08-09 22:13:17,537 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'error', 'code': 404, 'msg': 'auth timeout'}
+2024-08-09 22:13:17,538 - Thread-3 (run_forever) - requests_f - INFO - Connection closed with error: no close frame received or sent
+2024-08-09 22:13:17,538 - Thread-3 (run_forever) - requests_f - INFO - Attempting to reconnect to Alpaca in 5 seconds...
+2024-08-09 22:13:22,918 - Thread-3 (run_forever) - requests_f - INFO - Auth Response: [{'T': 'success', 'msg': 'connected'}]
+2024-08-09 22:13:23,022 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'error', 'code': 406, 'msg': 'connection limit exceeded'}
+2024-08-09 22:13:23,022 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'error', 'code': 400, 'msg': 'invalid syntax'}
+2024-08-09 22:13:33,281 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'error', 'code': 404, 'msg': 'auth timeout'}
+2024-08-09 22:13:33,282 - Thread-3 (run_forever) - requests_f - INFO - Connection closed with error: no close frame received or sent
+2024-08-09 22:13:33,282 - Thread-3 (run_forever) - requests_f - INFO - Attempting to reconnect to Alpaca in 5 seconds...
+2024-08-09 22:13:38,662 - Thread-3 (run_forever) - requests_f - INFO - Auth Response: [{'T': 'success', 'msg': 'connected'}]
+2024-08-09 22:13:38,767 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'success', 'msg': 'authenticated'}
+2024-08-09 22:13:38,768 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'error', 'code': 400, 'msg': 'invalid syntax'}
+2024-08-09 23:02:46,123 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-08-09 23:04:00,234 - Thread-2 (run_forever) - requests_f - INFO - Subscription thread has been launched for Alpaca
+2024-08-09 23:04:00,801 - Thread-2 (run_forever) - requests_f - INFO - Auth Response: [{'T': 'success', 'msg': 'connected'}]
+2024-08-09 23:04:00,978 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'success', 'msg': 'authenticated'}
+2024-08-09 23:04:00,979 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'subscription', 'trades': [], 'quotes': [], 'orderbooks': [], 'bars': ['BTC/USD', 'ETH/USD'], 'updatedBars': [], 'dailyBars': []}
+2024-08-09 23:18:13,509 - Thread-2 (run_forever) - requests_f - INFO - Connection closed with error: no close frame received or sent
+2024-08-09 23:18:13,511 - Thread-2 (run_forever) - requests_f - INFO - Attempting to reconnect to Alpaca in 5 seconds...
+2024-08-09 23:18:19,681 - Thread-2 (run_forever) - requests_f - INFO - Auth Response: [{'T': 'success', 'msg': 'connected'}]
+2024-08-09 23:18:20,101 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'success', 'msg': 'authenticated'}
+2024-08-09 23:18:20,198 - Thread-2 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'subscription', 'trades': [], 'quotes': [], 'orderbooks': [], 'bars': ['ETH/USD', 'BTC/USD'], 'updatedBars': [], 'dailyBars': []}
+2024-08-09 23:27:01,063 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-08-09 23:28:23,567 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-08-09 23:30:00,358 - Thread-3 (run_forever) - requests_f - INFO - Subscription thread has been launched for Alpaca
+2024-08-09 23:30:00,794 - Thread-3 (run_forever) - requests_f - INFO - Auth Response: [{'T': 'success', 'msg': 'connected'}]
+2024-08-09 23:30:00,947 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'success', 'msg': 'authenticated'}
+2024-08-09 23:30:00,947 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'subscription', 'trades': [], 'quotes': [], 'orderbooks': [], 'bars': ['ETH/USD', 'BTC/USD'], 'updatedBars': [], 'dailyBars': []}
+2024-08-09 23:36:54,670 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-08-09 23:38:01,001 - Thread-3 (run_forever) - requests_f - INFO - Subscription thread has been launched for Alpaca
+2024-08-09 23:38:01,443 - Thread-3 (run_forever) - requests_f - INFO - Auth Response: [{'T': 'success', 'msg': 'connected'}]
+2024-08-09 23:38:01,547 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'success', 'msg': 'authenticated'}
+2024-08-09 23:38:01,548 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'subscription', 'trades': [], 'quotes': [], 'orderbooks': [], 'bars': ['BTC/USD', 'ETH/USD'], 'updatedBars': [], 'dailyBars': []}
+2024-08-10 09:42:28,432 - Thread-3 (run_forever) - requests_f - INFO - Connection closed with error: no close frame received or sent
+2024-08-10 09:42:28,435 - Thread-3 (run_forever) - requests_f - INFO - Attempting to reconnect to Alpaca in 5 seconds...
+2024-08-10 09:42:34,425 - Thread-3 (run_forever) - requests_f - INFO - Auth Response: [{'T': 'success', 'msg': 'connected'}]
+2024-08-10 09:42:34,581 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'success', 'msg': 'authenticated'}
+2024-08-10 09:42:34,581 - Thread-3 (run_forever) - requests_f - INFO - Unexpected message format: {'T': 'subscription', 'trades': [], 'quotes': [], 'orderbooks': [], 'bars': ['BTC/USD', 'ETH/USD'], 'updatedBars': [], 'dailyBars': []}
+2024-08-10 19:49:28,928 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-08-14 17:23:11,083 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-08-14 17:41:15,078 - MainThread - requests_f - INFO - /|\ Program launch /|\
+2024-08-14 17:49:00,728 - Thread-2 (run_forever) - requests_f - INFO - Subscription thread has been launched for Alpaca
+2024-08-14 17:49:10,781 - Thread-2 (run_forever) - requests_f - INFO - An unexpected error occurred in Broker/Alpaca, Error: 
+2024-09-23 18:15:41,831 - MainThread - requests_f - INFO - /|\ Program launch /|\

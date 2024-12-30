@@ -1,0 +1,2 @@
+[console_scripts]
+trade_app4 = tradeAPP.main:main
